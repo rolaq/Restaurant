@@ -1,0 +1,424 @@
+/* TIPOGRAFIA */
+@font-face {
+    font-family:"Bosky";
+    src: url(../assets/bosky-evanish/BoskyEvanish.ttf);
+}
+
+/* HTML */
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #494645;
+    font-family: monospace;
+}
+
+
+
+/* HEADER */
+
+header{
+    color: white;
+    font-family: Bosky;
+    text-decoration: none;
+}
+
+#titulo{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+    /* position: absolute; */
+    left: 40%;
+    top:25%;
+}
+
+#imagen_encabezado{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/restaurantIndex.jpg);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; 
+    /* position: relative; */
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+
+
+/* NAVBAR */
+
+nav {
+    height: 80px;
+    width: 100%;
+    font-size: 20px;
+    /* position: absolute;
+    margin-top: 200px; */
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    top: 10px;
+}
+
+nav a{
+   color: inherit;
+   text-decoration: none;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #1f1d1d;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+    /*  INDEX */
+
+/* SECCION PRESENTACION */
+
+.titulo_pagina{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    height: 60px;
+    padding-top:15px;
+    background-color: #353332;
+}
+
+.presentacion h3{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.presentacion img{
+
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+}
+
+.presentacion{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+}
+
+.presentacion__seccion{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.presentacion_texto{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.presentacion_texto p{
+    width: 80%;
+    height: 80%;
+    font-size: 20px;
+    line-height: 2em;
+
+}
+
+/* SECCION RESEÑAS */
+
+.resenas img{
+
+    height: 400px;
+    width: 400px;
+
+}
+
+#titulo_resenas{
+    height: 200px;
+    width: 200px;
+    background-image: url(../assets/presentacion2.jpg);
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+#titulo_resenas h3{
+    margin: 0;
+    padding-top: 75px;
+}
+
+.resenas img{
+
+    border-radius: 50%;
+}
+
+
+/* FIN INDEX */
+
+
+
+
+
+
+
+
+
+/* PAGINA MENU */
+    
+/*    MENU     */
+
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+.menu img {
+    height: 150px;
+    width: 150px;
+}
+
+.menu article{
+    background-color: #7a7878; ;
+    width: 400px;
+    height: 400px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+
+/* PAGINA RESERVAS */
+
+/*  RESERVAS  */
+
+/* .pagina_reserva{
+    display: flex;
+    flex-flow: column nowrap;
+} */
+
+.form_reservas {
+    background-color: #7a787899;
+    height: 50vh;
+    width: 35%;
+    margin: 5% auto 5% auto;
+    padding:2%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas:
+    "email email"
+    "personas nombre"
+    "fecha horario"
+    "none boton"
+    ;
+    align-items: center;
+    column-gap: 8%;
+}
+.form_reservas__div{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.form_reservas__div input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}   
+
+.area_email{
+    grid-area: email;
+}
+
+.area_personas{
+    grid-area: personas;
+}
+.area_nombre{
+    grid-area: nombre;
+}
+.area_fecha{
+    grid-area: fecha;
+}
+.area_horario{
+    grid-area: horario;
+}
+.area_boton{
+    grid-area: boton;
+}
+.area_boton button{
+    background-color: #1f1d1d;
+    border: none;
+}
+
+/* .form_reservas div{
+    display: flex;
+    flex-flow: column nowrap;
+    
+} */
+
+
+/* PAGINA EVENTOS */
+
+/*   EVENTOS   */
+
+.eventos{
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.eventos_seccion{
+    height: 800px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.evento_texto{
+    width: 40%;
+    background-color: #7a787899;
+}
+
+.eventos img{
+    height: 80%;
+    width: 400px;
+
+}
+
+.evento_texto h3{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.evento_texto p{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+
+#eventos_img1{
+    background-image: url(../assets/eventos1.jpg);
+    background-size: cover;
+}
+#eventos_img2{
+    background-image: url(../assets/eventos2.jpg);
+    background-size: cover;
+}
+
+
+/*  CONTACTO  */
+
+.contacto{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "formulario_contacto mapa"
+    "formulario_contacto mapa"
+    "formulario_contacto mapa"
+    "formulario_contacto contacto_mensaje"
+    ;
+}
+
+.form_contacto{
+    margin: auto;
+    grid-area: formulario_contacto;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(6,70px);
+    grid-template-areas: 
+    "titulo titulo"
+    "nombre apellido"
+    "email email"
+    "asunto asunto"
+    "mensaje mensaje"
+    "boton boton";
+    text-align: center;
+}
+
+.form_contacto div{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.form_contacto input {
+    width: 100%;
+    height: 20px;
+}
+
+.form_contacto textarea {
+    width: 100%;
+    
+}
+
+.mapa{
+    grid-area: mapa;
+}
+
+.contacto__mensaje{
+    grid-area: contacto_mensaje;
+}
+
+
+
+.form_contacto__titulo{
+    grid-area: titulo;
+}
+
+.form_contacto__nombre{
+    grid-area: nombre;
+}
+
+.form_contacto__apellido{
+    grid-area: apellido;
+}
+.form_contacto__email{
+    grid-area: email;
+}
+.form_contacto__asunto{
+    grid-area: asunto;
+}
+.form_contacto__mensaje{
+    grid-area: mensaje;
+}
+.form_contacto__boton{
+    grid-area: boton;
+}
