@@ -5,18 +5,18 @@
 }
 
 /* HTML */
-
+/* 
 body{
     padding: 0;
     margin: 0;
     background-color: #494645;
     font-family: monospace;
-}
+} */
 
 
 
 /* HEADER */
-
+/* 
 header{
     color: white;
     font-family: Bosky;
@@ -28,7 +28,6 @@ header{
     font-weight: bolder;
     font-size: 40px;
     margin: 0;
-    /* position: absolute; */
     left: 40%;
     top:25%;
 }
@@ -43,21 +42,19 @@ header{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center; 
-    /* position: relative; */
+    
     background-attachment: fixed;
     background-position: bottom;
-}
+} */
 
 
 
 /* NAVBAR */
 
-nav {
+/* nav {
     height: 80px;
     width: 100%;
     font-size: 20px;
-    /* position: absolute;
-    margin-top: 200px; */
     position: sticky;
     top: 0;
 }
@@ -73,7 +70,7 @@ nav ul{
     align-items: center;
     list-style: none;
     top: 10px;
-}
+} */
 
 nav a{
    color: inherit;
@@ -82,7 +79,7 @@ nav a{
 
 
 /* FOOTER */
-
+/* 
 footer{
     background-color: #1f1d1d;
     display: flex;
@@ -93,7 +90,7 @@ footer{
 footer ul{
     list-style: none;
     padding: 0;
-}
+} */
 
 
 
@@ -101,7 +98,7 @@ footer ul{
     /*  INDEX */
 
 /* SECCION PRESENTACION */
-
+/* 
 .titulo_pagina{
     text-align: center;
     font-weight: bolder;
@@ -148,11 +145,11 @@ footer ul{
     font-size: 20px;
     line-height: 2em;
 
-}
+} */
 
 /* SECCION RESEÑAS */
 
-.resenas img{
+/* .resenas img{
 
     height: 400px;
     width: 400px;
@@ -176,7 +173,7 @@ footer ul{
 .resenas img{
 
     border-radius: 50%;
-}
+} */
 
 
 /* FIN INDEX */
@@ -193,7 +190,7 @@ footer ul{
     
 /*    MENU     */
 
-.menu{
+/* .menu{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -215,7 +212,7 @@ footer ul{
     justify-content: center;
     align-items: center;
     margin: 30px;
-}
+} */
 
 
 /* PAGINA RESERVAS */
@@ -227,7 +224,7 @@ footer ul{
     flex-flow: column nowrap;
 } */
 
-.form_reservas {
+/* .form_reservas {
     background-color: #7a787899;
     height: 50vh;
     width: 35%;
@@ -279,7 +276,7 @@ footer ul{
 .area_boton button{
     background-color: #1f1d1d;
     border: none;
-}
+} */
 
 /* .form_reservas div{
     display: flex;
@@ -292,7 +289,7 @@ footer ul{
 
 /*   EVENTOS   */
 
-.eventos{
+/* .eventos{
     
     display: flex;
     flex-flow: column nowrap;
@@ -341,11 +338,11 @@ footer ul{
     background-image: url(../assets/eventos2.jpg);
     background-size: cover;
 }
-
+ */
 
 /*  CONTACTO  */
 
-.contacto{
+/* .contacto{
     margin: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -421,4 +418,4 @@ footer ul{
 }
 .form_contacto__boton{
     grid-area: boton;
-}
+} */
