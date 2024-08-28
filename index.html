@@ -10,20 +10,21 @@
         <link rel="icon" href="assets/icono.ico" type="image/x-icon">
     </head>
 
-    <body>
+    <body class="container">
 
-        <header>
+        <header class="row">
 
-            <div id="imagen_encabezado">
+            <div id="imagen_encabezado" class="col container">
     
-                <h1 id="titulo">Restaurant Generico</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="pages/menu.html">Menú</a></li>
-                        <li><a href="pages/reserva.html">Reserva</a></li>
-                        <li><a href="pages/eventos.html">Eventos</a></li>
-                        <li><a href="pages/contacto.html">Contacto</a></li>
+                <h1 id="titulo" class="row">Restaurant Generico</h1>
+
+                <nav class="row container">
+                    <ul class="row">
+                        <li class="col"><a href="index.html">Inicio</a></li>
+                        <li class="col"><a href="pages/menu.html">Menú</a></li>
+                        <li class="col"><a href="pages/reserva.html">Reserva</a></li>
+                        <li class="col"><a href="pages/eventos.html">Eventos</a></li>
+                        <li class="col"><a href="pages/contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,17 +33,17 @@
 
 
 
-        <main class="container">
+        <main class="row container">
 
-            <h2 class="titulo_pagina">Inicio</h2>
+            <h2 class="titulo_pagina row">Inicio</h2>
 
-            <section class="presentacion">
+            <section class="presentacion row container">
                 
-                <div class="presentacion__seccion">
+                <div class="presentacion__seccion row">
 
-                    <img src="assets/presentacion1.jpg" alt="personas bebiendo">
+                    <img src="assets/presentacion1.jpg" class="img-fluid col-4" alt="personas bebiendo">
 
-                    <div class="presentacion_texto">
+                    <div class="presentacion_texto col-8">
 
                         <h3>Titulo-Presentacion</h3>
 
@@ -56,11 +57,11 @@
                 </div>
                 
 
-                <div class="presentacion__seccion">
+                <div class="presentacion__seccion row">
 
-                    <img src="assets/presentacion2.jpg" alt="restaurante">
+                    <img src="assets/presentacion2.jpg" class="img-fluid col-4" alt="restaurante">
 
-                    <div class="presentacion_texto">
+                    <div class="presentacion_texto col-8">
 
                         <h3>Titulo-Presentacion</h3>
     
@@ -73,11 +74,11 @@
 
                 </div>
 
-                <div class="presentacion__seccion">
+                <div class="presentacion__seccion row">
 
-                    <img src="assets/presentacion3.jpg" alt="mucha comida">
+                    <img src="assets/presentacion3.jpg" class="img-fluid col-4" alt="mucha comida">
 
-                    <div class="presentacion_texto">
+                    <div class="presentacion_texto col-8">
 
                         <h3>Titulo-Presentacion</h3>
     
@@ -96,44 +97,48 @@
 
             </section>
 
-            <section class="resenas">
+            <section class="resenas row container">
 
-                <div id="titulo_resenas">
+                <div id="titulo_resenas row">
                     <h3>RESEÑAS</h3>
                 </div>
 
-                <div>
+                <div class="seccion_resenas row">
 
-                    <img src="assets/presentacion2.jpg">
+                    <div class="col-6">
 
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, dignissimos suscipit repellendus quaerat dolorum beatae saepe fuga non ratione ducimus, 
-                        dolore aliquam laboriosam est excepturi veniam reprehenderit quia dicta magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit neque 
-                        laboriosam quaerat sequi, nesciunt culpa
-                    </p>
+                        <img src="assets/presentacion2.jpg" class="img-fluid">
+
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, dignissimos suscipit repellendus quaerat dolorum beatae saepe fuga non ratione ducimus, 
+                            dolore aliquam laboriosam est excepturi veniam reprehenderit quia dicta magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit neque 
+                            laboriosam quaerat sequi, nesciunt culpa
+                        </p>
+
+                    </div>
+
+                    <div class="col-6">
+
+                        <img src="assets/presentacion3.jpg" class="img-fluid">
+
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, dignissimos suscipit repellendus quaerat dolorum beatae saepe fuga non ratione ducimus, 
+                            dolore aliquam laboriosam est excepturi veniam reprehenderit quia dicta magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit neque 
+                            laboriosam quaerat sequi, nesciunt culpa
+                        </p>
+
+                    </div>
 
                 </div>
-
-                <div>
-
-                    <img src="assets/presentacion3.jpg">
-
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, dignissimos suscipit repellendus quaerat dolorum beatae saepe fuga non ratione ducimus, 
-                        dolore aliquam laboriosam est excepturi veniam reprehenderit quia dicta magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit neque 
-                        laboriosam quaerat sequi, nesciunt culpa
-                    </p>
-
-                </div>
-            
 
 
             </section>
             
         </main>
 
-        <footer>
-            <div class="footer_contacto">
+        <footer class="row">
+
+            <div class="footer_contacto col-4">
                 <h3>CONTACTO</h3>
                 <ul>
                     <li>Ubicación</li>
@@ -141,14 +146,14 @@
                     <li>Email</li>
                 </ul>
             </div>
-            <div class="footer_horarios">
+            <div class="footer_horarios col-4">
                 <h3>HORARIOS</h3>
                 <ul>
                     <li>Lunes a Viernes</li>
                     <li>Sábado y Domingo</li>
                 </ul>
             </div>
-            <div class="footer_redes">
+            <div class="footer_redes col-4">
                 <h3>REDES</h3>
                 <ul>
                     <li><a href="#">Facebook</a></li>
@@ -157,6 +162,8 @@
                 </ul>
             </div>
         </footer>
+
         <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+
     </body>
 </html>
