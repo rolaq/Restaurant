@@ -5,27 +5,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Restaurant</title>
-        <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css" >
         <link rel="icon" href="../assets/icono.ico" type="image/x-icon">
     </head>
 
+    <body class="container">
 
-    <body>
+        <header class="row">
 
-        <header>
+            <div id="imagen_encabezado" class="col container">
 
-            <div id="imagen_encabezado">
+                <h1 id="titulo" class="row">Restaurant Generico</h1>
 
-                <h1 id="titulo">Restaurant Generico</h1>
-
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="menu.html">Menú</a></li>
-                        <li><a href="reserva.html">Reserva</a></li>
-                        <li><a href="eventos.html">Eventos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                <nav class="row container">
+                    <ul class="row">
+                        <li class="col"><a href="../index.html">Inicio</a></li>
+                        <li class="col"><a href="menu.html">Menú</a></li>
+                        <li class="col"><a href="reserva.html">Reserva</a></li>
+                        <li class="col"><a href="eventos.html">Eventos</a></li>
+                        <li class="col"><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
 
@@ -34,47 +33,50 @@
         </header>
 
 
-        <main class="pagina_reserva">
+        <main class="pagina_reserva row">
 
-            <h2 class="titulo_pagina">Reserva</h2>
+            <h2 class="titulo_pagina col-12">Reserva</h2>
 
-            <form class="form_reservas" >
-                
-                <div class="form_reservas__div area_email">
-                    <label>Email</label>
-                    <input type="email">
-                </div>
-                
-                <div class="form_reservas__div area_personas">
-                    <label>Personas</label>
-                    <input type="number">
-                </div>    
-                
-                <div class="form_reservas__div area_nombre">
-                    <label>Nombre</label>
-                    <input type="text">
-                </div>
+            <form class="form_reservas col-6 container" >
+
+                <div class="row">
+
+                    <div class="form_reservas__div area_email col-12 container">
+                        <label class="row">Email</label>
+                        <input type="email" class="row">
+                    </div>
+                    
+                    <div class="form_reservas__div area_personas col-6 container">
+                        <label class="row">Personas</label>
+                        <input type="number" class="row">
+                    </div>    
+                    
+                    <div class="form_reservas__div area_nombre col-6 container">
+                        <label class="row">Nombre</label>
+                        <input type="text" class="row">
+                    </div>
 
 
-                <div class="form_reservas__div area_fecha">
-                    <label>Fecha</label>
-                    <input type="date">
-                </div>   
-                
-                <div class="form_reservas__div area_horario">
-                    <label>Horario</label>
-                    <input type="time">
-                </div>       
+                    <div class="form_reservas__div area_fecha col-6 container">
+                        <label class="row">Fecha</label>
+                        <input type="date" class="row">
+                    </div>   
+                    
+                    <div class="form_reservas__div area_horario col-6 container">
+                        <label class="row">Horario</label>
+                        <input type="time" class="row">
+                    </div>       
 
-                <div class="form_reservas__div area_boton">   
-                    <button type="submit">Enviar</button>
+                    <div class="form_reservas__div area_boton">   
+                        <button type="submit">Enviar</button>
+                    </div>
                 </div>
             </form>
 
         </main>
 
-        <footer>
-            <div class="footer_contacto">
+        <footer class="row">
+            <div class="footer_contacto col-4">
                 <h3>CONTACTO</h3>
                 <ul>
                     <li>Ubicación</li>
@@ -82,14 +84,14 @@
                     <li>Email</li>
                 </ul>
             </div>
-            <div class="footer_horarios">
+            <div class="footer_horarios col-4">
                 <h3>HORARIOS</h3>
                 <ul>
                     <li>Lunes a Viernes</li>
                     <li>Sábado y Domingo</li>
                 </ul>
             </div>
-            <div class="footer_redes">
+            <div class="footer_redes col-4">
                 <h3>REDES</h3>
                 <ul>
                     <li><a href="#">Facebook</a></li>
