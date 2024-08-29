@@ -109,11 +109,42 @@ body{
     border-bottom: 1px solid black;
     outline: none;
 }
+
+.contacto input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
 .form-control {
     border-radius: 0;
 }
 
 
+form h3 {
+    text-align: center;
+}
+
+.contacto__mapa iframe {
+    width: 600px;
+    height: 400px;
+}
+
+
+.contacto__mapa {
+    margin-bottom: 20px;
+}
+
+
+.contacto__mapa_descripcion {
+    text-align: justify;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+}
 /* FOOTER */
 /* 
 footer{
