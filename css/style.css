@@ -95,6 +95,25 @@ body{
     margin-bottom: 40px;
 }
 
+
+.reserva form{
+    height: 50vh;
+    width: 400px;
+    background-color:#686565;
+    margin: auto;
+}
+
+.reserva input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.form-control {
+    border-radius: 0;
+}
+
+
 /* FOOTER */
 /* 
 footer{
