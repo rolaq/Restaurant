@@ -10,15 +10,15 @@
         <link rel="icon" href="../assets/icono.ico" type="image/x-icon">
     </head>
 
-    <body class="container">
+    <body>
 
-        <header class="row">
+        <header class="container" id="imagen_encabezado">
 
-            <div id="imagen_encabezado" class="col container">
+            <div class="row">
+    
+                <h1 id="titulo" class="col-12">Restaurant Generico</h1>
 
-                <h1 id="titulo" class="row">Restaurant Generico</h1>
-
-                <nav class="row container">
+                <nav class="col-12">
                     <ul class="row">
                         <li class="col"><a href="../index.html">Inicio</a></li>
                         <li class="col"><a href="menu.html">Menú</a></li>
@@ -27,46 +27,45 @@
                         <li class="col"><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
-
             </div>
-            
+                
         </header>
 
-        <main class="row">
+        <main class="container">
 
-            <section class="carrusel">
+            <section class="row carrusel">
             </section>
 
-            <h2 class="titulo_pagina col-12">Eventos</h2>
+            <h2 class="row">Eventos</h2>
 
-            <section class="eventos col-12 container">
+            <section class="row">
                 
-                <div class="eventos_seccion row" id="eventos_img1">
+                <div class="row" id="eventos_img1">
 
                     <img src="../assets/presentacion1.jpg" class="img-fluid col-6">
 
-                    <div class="evento_texto col-6">
+                    <div class="col-6 row">
 
-                    <h3>Titulo-Evento</h3>
+                        <h3>Titulo-Evento</h3>
 
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, dignissimos suscipit repellendus quaerat dolorum beatae saepe fuga non ratione ducimus, 
-                        dolore aliquam laboriosam est excepturi veniam reprehenderit quia dicta magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit neque 
-                        laboriosam quaerat sequi, nesciunt culpa adipisci repellendus magni aut obcaecati illum, quod, non et consequatur laborum tempore minima quo. Lorem ipsum dolor 
-                        sit amet consectetur, adipisicing elit. Magnam eveniet sapiente eum expedita assumenda iure eos, nemo natus minima perspiciatis repellat, tempore reprehenderit quasi
-                        tenetur ipsa consequatur enim soluta odio? Lorem ipsum dolor
-                    </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, dignissimos suscipit repellendus quaerat dolorum beatae saepe fuga non ratione ducimus, 
+                            dolore aliquam laboriosam est excepturi veniam reprehenderit quia dicta magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit neque 
+                            laboriosam quaerat sequi, nesciunt culpa adipisci repellendus magni aut obcaecati illum, quod, non et consequatur laborum tempore minima quo. Lorem ipsum dolor 
+                            sit amet consectetur, adipisicing elit. Magnam eveniet sapiente eum expedita assumenda iure eos, nemo natus minima perspiciatis repellat, tempore reprehenderit quasi
+                            tenetur ipsa consequatur enim soluta odio? Lorem ipsum dolor
+                        </p>
 
                     </div>
                 
                 </div>
                 
 
-                <div class="eventos_seccion row" id="eventos_img2">
+                <div class="row" id="eventos_img2">
 
                     <img src="../assets/presentacion1.jpg" class="img-fluid col-6">
 
-                    <div class="evento_texto col-6">
+                    <div class="evento_texto col-6 row">
 
                     <h3>Titulo-Evento</h3>
 
@@ -87,31 +86,34 @@
 
         </main>
 
-        <footer class="row">
-            <div class="footer_contacto col-4">
-                <h3>CONTACTO</h3>
-                <ul>
-                    <li>Ubicación</li>
-                    <li>Teléfono</li>
-                    <li>Email</li>
-                </ul>
-            </div>
-            <div class="footer_horarios col-4">
-                <h3>HORARIOS</h3>
-                <ul>
-                    <li>Lunes a Viernes</li>
-                    <li>Sábado y Domingo</li>
-                </ul>
-            </div>
-            <div class="footer_redes col-4">
-                <h3>REDES</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
+        <footer class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3>CONTACTO</h3>
+                    <ul>
+                        <li>Ubicación</li>
+                        <li>Teléfono</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>HORARIOS</h3>
+                    <ul>
+                        <li>Lunes a Viernes</li>
+                        <li>Sábado y Domingo</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>REDES</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
             </div>
         </footer>
+
         <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     </body>
 </html>

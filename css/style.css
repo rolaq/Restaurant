@@ -4,6 +4,25 @@
     src: url(../assets/bosky-evanish/BoskyEvanish.ttf);
 }
 
+header{
+    color: white;
+    font-family: Bosky;
+    text-decoration: none;
+}
+
+nav a{
+    color: inherit;
+    text-decoration: none;
+ }
+
+ #imagen_encabezado{
+    background-image: url(../assets/restaurantIndex.jpg);
+    background-attachment: fixed;
+ }
+
+ li {
+    list-style: none;
+ }
 /* HTML */
 /* 
 body{

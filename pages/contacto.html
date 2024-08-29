@@ -10,15 +10,15 @@
         <link rel="icon" href="../assets/icono.ico" type="image/x-icon">
     </head>
 
-    <body class="container">
+    <body>
 
-        <header class="row">
+        <header class="container" id="imagen_encabezado">
 
-            <div id="imagen_encabezado" class="col container">
+            <div class="row">
+    
+                <h1 id="titulo" class="col-12">Restaurant Generico</h1>
 
-                <h1 id="titulo" class="row">Restaurant Generico</h1>
-
-                <nav class="row container">
+                <nav class="col-12">
                     <ul class="row">
                         <li class="col"><a href="../index.html">Inicio</a></li>
                         <li class="col"><a href="menu.html">Menú</a></li>
@@ -27,56 +27,57 @@
                         <li class="col"><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
-
             </div>
-            
+                
         </header>
 
-        <main class="row container">
+        <main class="container">
 
-            <h2 class="titulo_pagina row">Contacto</h2>
+            <h2 class="row">Contacto</h2>
 
-            <section class="contacto row container">
+            <section class="row">
                 
-                <form class="form_contacto row col-6">
+                <form class="row col-6">
 
-                    <h3 class="form_contacto__titulo col-12">Recibimos tu mensaje</h3>
+                    <h3 class="col-12">Recibimos tu mensaje</h3>
 
-                    <div class="form_contacto__nombre col-6 ">
+                    <div class="col-6 ">
                         <label>Nombre</label>
                         <input type="text">
                     </div>
 
-                    <div class="form_contacto__apellido col-6 ">
+                    <div class="col-6 ">
                         <label>Apellido</label>
                         <input type="text">
                     </div>
                     
-                    <div class="form_contacto__email col-12">
+                    <div class="col-12">
                         <label>Email</label>
                         <input type="email">
                     </div>
                     
-                    <div class="form_contacto__asunto col-12">
+                    <div class="col-12">
                         <label>Asunto</label>
                         <input type="text">
                     </div>
 
-                    <div class="form_contacto__mensaje col-12">
+                    <div class="col-12">
                         <label for="mensaje">Mensaje</label>
                         <textarea name="mensaje"></textarea>
                     </div>
+                    
                     <div class="col-6">
                         <button type="submit form_contacto__boton">Enviar</button>
                     </div>
                     
     
                 </form>
-                <div class="col-6">
+
+                <div class="col-6 row">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1642.0083558935391!2d-58.38395208120342!3d-34.60373891813143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1722898571847!5m2!1ses-419!2sar" 
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="row"></iframe>
                 
-                    <p class="contacto_mensaje">
+                    <p class="row">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio debitis, laborum vel consequuntur unde, 
                         architecto expedita dolores, suscipit quis excepturi dolor. Temporibus commodi modi, quibusdam iusto nihil quasi tempora porro.
                     </p>
@@ -87,31 +88,34 @@
 
         </main>
 
-        <footer class="row">
-            <div class="footer_contacto col-4">
-                <h3>CONTACTO</h3>
-                <ul>
-                    <li>Ubicación</li>
-                    <li>Teléfono</li>
-                    <li>Email</li>
-                </ul>
-            </div>
-            <div class="footer_horarios col-4">
-                <h3>HORARIOS</h3>
-                <ul>
-                    <li>Lunes a Viernes</li>
-                    <li>Sábado y Domingo</li>
-                </ul>
-            </div>
-            <div class="footer_redes col-4">
-                <h3>REDES</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
+        <footer class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3>CONTACTO</h3>
+                    <ul>
+                        <li>Ubicación</li>
+                        <li>Teléfono</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>HORARIOS</h3>
+                    <ul>
+                        <li>Lunes a Viernes</li>
+                        <li>Sábado y Domingo</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3>REDES</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
             </div>
         </footer>
+
         <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     </body>
 </html>
