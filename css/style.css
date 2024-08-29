@@ -14,15 +14,26 @@ nav a{
     color: inherit;
     text-decoration: none;
  }
+/* HEADER */
 
  #imagen_encabezado{
+    margin: 0;
+    padding: 0;
+    height: 500px;
     background-image: url(../assets/restaurantIndex.jpg);
+    align-items: center;
+    justify-content: center; 
     background-attachment: fixed;
- }
+    background-position: bottom;
+    }
 
  li {
     list-style: none;
- }
+    }
+
+
+/* FIN HEADER*/
+
 /* HTML */
 /* 
 body{
