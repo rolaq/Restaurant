@@ -12,74 +12,72 @@
 
     <body>
 
-        <header class="container">
+        
+        <header class="container-fluid">
 
             <div class="row"  id="imagen_encabezado">
     
                 <h1 id="titulo" class="col-12 align-self-end text-center">Restaurant Generico</h1>
 
-                <nav class="col-12 mt-4">
+                <nav class="col-12 mt-5">
                     <ul class="row justify-content-evenly ">
-                        <li class="col-auto"><a href="../index.html">Inicio</a></li>
-                        <li class="col-auto"><a href="menu.html">Menú</a></li>
-                        <li class="col-auto"><a href="reserva.html">Reserva</a></li>
-                        <li class="col-auto"><a href="eventos.html">Eventos</a></li>
-                        <li class="col-auto"><a href="contacto.html">Contacto</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="../index.html">Inicio</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="menu.html">Menú</a></li>
+                        <li class="col-sm-12 col-lg-auto "><a href="reserva.html">Reserva</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="eventos.html">Eventos</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
                 
         </header>
 
-
         <main class="reserva">
 
             <h2 class="titulo_pagina">Reserva</h2>
 
             <form class="container p-4">
-                <div class="contenedor_form">
-                    <div class="mb-3">
-                        <label  class="form-label">Email</label>
-                        <input type="email" class="form-control" placeholder="Ingresa tu email">
+                
+                <div class="mb-3">
+                    <label  class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="Ingresa tu email">
+                </div>
+            
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Personas</label>
+                        <input type="text" class="form-control" placeholder="Número de personas">
                     </div>
-                
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label class="form-label">Personas</label>
-                            <input type="text" class="form-control" placeholder="Número de personas">
-                        </div>
-                
-                        <div class="col-md-6">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" placeholder="Ingresa tu nombre">
-                        </div>
-                    </div>
-                
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label class="form-label">Fecha</label>
-                            <input type="date" class="form-control">
-                        </div>
-                
-                        <div class="col-md-6">
-                            <label class="form-label">Horario</label>
-                            <input type="time" class="form-control">
-                        </div>
-                    </div>
-                
-                    <div class="text-end">
-                        <button type="submit" class="btn btn-dark">Button</button>
+            
+                    <div class="col-md-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Ingresa tu nombre">
                     </div>
                 </div>
-                
+            
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Fecha</label>
+                        <input type="date" class="form-control">
+                    </div>
+            
+                    <div class="col-md-6">
+                        <label class="form-label">Horario</label>
+                        <input type="time" class="form-control">
+                    </div>
+                </div>
+            
+                <div class="text-end">
+                    <button type="submit" class="btn btn-dark">Button</button>
+                </div>
             
             </form>
 
         </main>
 
-        <footer class="container">
-            <div class="row">
-                <div class="col-4">
+        <footer class="container-fluid ">
+            <div class="row justify-content-evenly">
+                <div class="col-auto">
                     <h3>CONTACTO</h3>
                     <ul>
                         <li>Ubicación</li>
@@ -87,14 +85,14 @@
                         <li>Email</li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-auto">
                     <h3>HORARIOS</h3>
                     <ul>
                         <li>Lunes a Viernes</li>
                         <li>Sábado y Domingo</li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-auto">
                     <h3>REDES</h3>
                     <ul>
                         <li><a href="#">Facebook</a></li>

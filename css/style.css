@@ -29,6 +29,7 @@ nav a{
 
 li{
     list-style: none;
+    text-align: center;
 }
 
 #titulo{
@@ -117,18 +118,36 @@ body{
     outline: none;
 }
 
+.contacto textarea{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
 .form-control {
     border-radius: 0;
 }
+.contacto input:focus, .contacto textarea:focus {
+    background-color: transparent; 
+    border-color: none; 
+    box-shadow: none; 
+    border-bottom: 1px solid rgb(214, 206, 206);
+}
 
+.reserva input:focus, .reserva textarea:focus {
+    background-color: transparent; 
+    border-color: none; 
+    box-shadow: none; 
+    border-bottom: 1px solid rgb(214, 206, 206);
+}
 
 form h3 {
     text-align: center;
 }
 
 .contacto__mapa iframe {
-    width: 600px;
-    height: 400px;
+    width: 100%; /* Ajusta el iframe para que ocupe el 100% del contenedor */
+    height: 400px; /* Ajusta la altura según sea necesario */
 }
 
 
@@ -142,23 +161,19 @@ form h3 {
     margin: 0;
 }
 
-ul{
-    padding: 0;
-}
-/* FOOTER */
-/* 
-footer{
-    background-color: #1f1d1d;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-}
-
 footer ul{
     list-style: none;
     padding: 0;
-} */
+}
 
+footer{
+    background-color: #1f1d1d;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
 
     /*  INDEX */
 
