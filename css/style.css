@@ -68,6 +68,7 @@ body{
     height: 60px;
     padding-top:15px;
     background-color: #353332;
+   
 }
 
 .presentacion img{
@@ -79,6 +80,19 @@ body{
 
 .presentacion__texto{
     padding-top: 40px;
+}
+
+
+.menu img{
+    height: 150px;
+    width: 150px;
+}
+
+.menu article{
+    height: 400px;
+    width: 400px;
+    background-color: #3a3737;
+    margin-bottom: 40px;
 }
 
 /* FOOTER */
