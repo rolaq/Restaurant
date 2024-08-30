@@ -5,97 +5,104 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Restaurant</title>
+        <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css" >
         <link rel="icon" href="../assets/icono.ico" type="image/x-icon">
     </head>
 
-
     <body>
 
-        <header>
+        
+        <header class="container-fluid">
 
-            <div id="imagen_encabezado">
+            <div class="row"  id="imagen_encabezado">
+    
+                <h1 id="titulo" class="col-12 align-self-end text-center">Restaurant Generico</h1>
 
-                <h1 id="titulo">Restaurant Generico</h1>
-
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="menu.html">Menú</a></li>
-                        <li><a href="reserva.html">Reserva</a></li>
-                        <li><a href="eventos.html">Eventos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                <nav class="col-12 mt-5">
+                    <ul class="row justify-content-evenly ">
+                        <li class="col-sm-12 col-lg-auto"><a href="../index.html">Inicio</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="menu.html">Menú</a></li>
+                        <li class="col-sm-12 col-lg-auto "><a href="reserva.html">Reserva</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="eventos.html">Eventos</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
-
             </div>
-            
+                
         </header>
 
-
-        <main class="pagina_reserva">
+        <main class="reserva">
 
             <h2 class="titulo_pagina">Reserva</h2>
 
-            <form class="form_reservas" >
+            <form class="container p-4">
                 
-                <div class="form_reservas__div area_email">
-                    <label>Email</label>
-                    <input type="email">
+                <div class="mb-3">
+                    <label  class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="Ingresa tu email">
                 </div>
-                
-                <div class="form_reservas__div area_personas">
-                    <label>Personas</label>
-                    <input type="number">
-                </div>    
-                
-                <div class="form_reservas__div area_nombre">
-                    <label>Nombre</label>
-                    <input type="text">
+            
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Personas</label>
+                        <input type="text" class="form-control" placeholder="Número de personas">
+                    </div>
+            
+                    <div class="col-md-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Ingresa tu nombre">
+                    </div>
                 </div>
-
-
-                <div class="form_reservas__div area_fecha">
-                    <label>Fecha</label>
-                    <input type="date">
-                </div>   
-                
-                <div class="form_reservas__div area_horario">
-                    <label>Horario</label>
-                    <input type="time">
-                </div>       
-
-                <div class="form_reservas__div area_boton">   
-                    <button type="submit">Enviar</button>
+            
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Fecha</label>
+                        <input type="date" class="form-control">
+                    </div>
+            
+                    <div class="col-md-6">
+                        <label class="form-label">Horario</label>
+                        <input type="time" class="form-control">
+                    </div>
                 </div>
+            
+                <div class="text-end">
+                    <button type="submit" class="btn btn-dark">Button</button>
+                </div>
+            
             </form>
 
         </main>
 
-        <footer>
-            <div class="footer_contacto">
-                <h3>CONTACTO</h3>
-                <ul>
-                    <li>Ubicación</li>
-                    <li>Teléfono</li>
-                    <li>Email</li>
-                </ul>
-            </div>
-            <div class="footer_horarios">
-                <h3>HORARIOS</h3>
-                <ul>
-                    <li>Lunes a Viernes</li>
-                    <li>Sábado y Domingo</li>
-                </ul>
-            </div>
-            <div class="footer_redes">
-                <h3>REDES</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
+        <footer class="container-fluid ">
+            <div class="row justify-content-evenly">
+                <div class="col-auto">
+                    <h3>CONTACTO</h3>
+                    <ul>
+                        <li>Ubicación</li>
+                        <li>Teléfono</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <h3>HORARIOS</h3>
+                    <ul>
+                        <li>Lunes a Viernes</li>
+                        <li>Sábado y Domingo</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <h3>REDES</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
             </div>
         </footer>
+
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     </body>
 </html>
