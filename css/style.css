@@ -57,7 +57,18 @@ nav a{
 
 li{
     list-style: none;
-    text-align: center;
+}
+
+@media (min-width: 576px){
+    li,h3 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px){
+    li,h3 {
+        text-align:start;
+    }
 }
 
 /* FIN HEADER*/
