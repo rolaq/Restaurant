@@ -5,71 +5,68 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Restaurant</title>
+        <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css" >
         <link rel="icon" href="../assets/icono.ico" type="image/x-icon">
     </head>
 
-
     <body>
 
-        <header>
+        <header class="container-fluid">
 
-            <div id="imagen_encabezado">
+            <div class="row"  id="imagen_encabezado">
+    
+                <h1 id="titulo" class="col-12 align-self-end text-center">Restaurant Generico</h1>
 
-                <h1 id="titulo">Restaurant Generico</h1>
+                <nav class="col-12 mt-5">
+                    <ul class="row justify-content-evenly ">
+                        <li class="col-sm-12 col-lg-auto"><a href="../index.html">Inicio</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="menu.html">Menú</a></li>
+                        <li class="col-sm-12 col-lg-auto "><a href="reserva.html">Reserva</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="eventos.html">Eventos</a></li>
+                        <li class="col-sm-12 col-lg-auto"><a href="contacto.html">Contacto</a></li>
 
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="menu.html">Menú</a></li>
-                        <li><a href="reserva.html">Reserva</a></li>
-                        <li><a href="eventos.html">Eventos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
-
             </div>
-            
+                
         </header>
-
         
+        <main class="container">
 
-
-        <main>
-
-            <section class="carrusel">
+            <section class="row carrusel">
             </section>
 
             <h2 class="titulo_pagina">Eventos</h2>
 
-            <section class="eventos">
+            <section class="row">
                 
-                <div class="eventos_seccion" id="eventos_img1">
+                <div class="row" id="eventos_img1">
 
-                    <img src="../assets/presentacion1.jpg">
+                    <img src="../assets/presentacion1.jpg" class="img-fluid col-6">
 
-                    <div class="evento_texto">
+                    <div class="col-6 row">
 
-                    <h3>Titulo-Evento</h3>
+                        <h3>Titulo-Evento</h3>
 
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, dignissimos suscipit repellendus quaerat dolorum beatae saepe fuga non ratione ducimus, 
-                        dolore aliquam laboriosam est excepturi veniam reprehenderit quia dicta magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit neque 
-                        laboriosam quaerat sequi, nesciunt culpa adipisci repellendus magni aut obcaecati illum, quod, non et consequatur laborum tempore minima quo. Lorem ipsum dolor 
-                        sit amet consectetur, adipisicing elit. Magnam eveniet sapiente eum expedita assumenda iure eos, nemo natus minima perspiciatis repellat, tempore reprehenderit quasi
-                        tenetur ipsa consequatur enim soluta odio? Lorem ipsum dolor
-                    </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, dignissimos suscipit repellendus quaerat dolorum beatae saepe fuga non ratione ducimus, 
+                            dolore aliquam laboriosam est excepturi veniam reprehenderit quia dicta magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste impedit neque 
+                            laboriosam quaerat sequi, nesciunt culpa adipisci repellendus magni aut obcaecati illum, quod, non et consequatur laborum tempore minima quo. Lorem ipsum dolor 
+                            sit amet consectetur, adipisicing elit. Magnam eveniet sapiente eum expedita assumenda iure eos, nemo natus minima perspiciatis repellat, tempore reprehenderit quasi
+                            tenetur ipsa consequatur enim soluta odio? Lorem ipsum dolor
+                        </p>
 
                     </div>
                 
                 </div>
                 
 
-                <div class="eventos_seccion" id="eventos_img2">
+                <div class="row" id="eventos_img2">
 
-                    <img src="../assets/presentacion1.jpg">
+                    <img src="../assets/presentacion1.jpg" class="img-fluid col-6">
 
-                    <div class="evento_texto">
+                    <div class="evento_texto col-6 row">
 
                     <h3>Titulo-Evento</h3>
 
@@ -90,30 +87,34 @@
 
         </main>
 
-        <footer>
-            <div class="footer_contacto">
-                <h3>CONTACTO</h3>
-                <ul>
-                    <li>Ubicación</li>
-                    <li>Teléfono</li>
-                    <li>Email</li>
-                </ul>
-            </div>
-            <div class="footer_horarios">
-                <h3>HORARIOS</h3>
-                <ul>
-                    <li>Lunes a Viernes</li>
-                    <li>Sábado y Domingo</li>
-                </ul>
-            </div>
-            <div class="footer_redes">
-                <h3>REDES</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
+        <footer class="container-fluid ">
+            <div class="row justify-content-evenly">
+                <div class="col-auto">
+                    <h3>CONTACTO</h3>
+                    <ul>
+                        <li>Ubicación</li>
+                        <li>Teléfono</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <h3>HORARIOS</h3>
+                    <ul>
+                        <li>Lunes a Viernes</li>
+                        <li>Sábado y Domingo</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <h3>REDES</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
             </div>
         </footer>
+
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     </body>
 </html>

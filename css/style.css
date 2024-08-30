@@ -4,17 +4,6 @@
     src: url(../assets/bosky-evanish/BoskyEvanish.ttf);
 }
 
-/* HTML */
-
-body{
-    padding: 0;
-    margin: 0;
-    background-color: #494645;
-    font-family: monospace;
-}
-
-
-
 /* HEADER */
 
 header{
@@ -23,71 +12,153 @@ header{
     text-decoration: none;
 }
 
-#titulo{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 40px;
-    margin: 0;
-    /* position: absolute; */
-    left: 40%;
-    top:25%;
-}
-
 #imagen_encabezado{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 500px;
+
+    height: 450px;
     background-image: url(../assets/restaurantIndex.jpg);
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center; 
-    /* position: relative; */
     background-attachment: fixed;
     background-position: bottom;
 }
 
-
-
-/* NAVBAR */
-
-nav {
-    height: 80px;
-    width: 100%;
-    font-size: 20px;
-    /* position: absolute;
-    margin-top: 200px; */
-    position: sticky;
-    top: 0;
-}
-
-nav ul{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    top: 10px;
-}
-
 nav a{
-   color: inherit;
-   text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+ }
+
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+#titulo{
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 
-/* FOOTER */
+/* FIN HEADER*/
 
-footer{
-    background-color: #1f1d1d;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
+/* HTML */
+
+/* INDEX*/
+
+body{
+    background-color: #494645;
+    font-family: monospace;
+} 
+
+#titulo_resenas{
+    height: 200px;
+    width: 200px;
+    background-image: url(../assets/presentacion2.jpg);
+    border-radius: 50%;
+    
+
+}
+
+.resenas img{
+    border-radius: 50%;
+}
+
+.titulo_pagina{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    height: 60px;
+    padding-top:15px;
+    background-color: #353332;
+   
+}
+
+.presentacion img{
+
+    height: 450px;
+    width: 450px;
+    margin: 50px;
+}
+
+.presentacion__texto{
+    padding-top: 40px;
+}
+
+
+.menu img{
+    height: 150px;
+    width: 150px;
+}
+
+.menu article{
+    height: 400px;
+    width: 400px;
+    background-color: #3a3737;
+    margin-bottom: 40px;
+}
+
+
+.reserva form{
+    height: 50vh;
+    width: 400px;
+    background-color:#686565;
+    margin: auto;
+}
+
+.reserva input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.contacto input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.contacto textarea{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.form-control {
+    border-radius: 0;
+}
+.contacto input:focus, .contacto textarea:focus {
+    background-color: transparent; 
+    border-color: none; 
+    box-shadow: none; 
+    border-bottom: 1px solid rgb(214, 206, 206);
+}
+
+.reserva input:focus, .reserva textarea:focus {
+    background-color: transparent; 
+    border-color: none; 
+    box-shadow: none; 
+    border-bottom: 1px solid rgb(214, 206, 206);
+}
+
+form h3 {
+    text-align: center;
+}
+
+.contacto__mapa iframe {
+    width: 100%; /* Ajusta el iframe para que ocupe el 100% del contenedor */
+    height: 400px; /* Ajusta la altura según sea necesario */
+}
+
+
+.contacto__mapa {
+    margin-bottom: 20px;
+}
+
+
+.contacto__mapa_descripcion {
+    text-align: justify;
+    margin: 0;
 }
 
 footer ul{
@@ -95,23 +166,19 @@ footer ul{
     padding: 0;
 }
 
+footer{
+    background-color: #1f1d1d;
+    color: black;
+}
 
-
+a{
+    text-decoration: none;
+}
 
     /*  INDEX */
 
 /* SECCION PRESENTACION */
-
-.titulo_pagina{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-    box-sizing: border-box;
-    margin: 0;
-    height: 60px;
-    padding-top:15px;
-    background-color: #353332;
-}
+/* 
 
 .presentacion h3{
     font-weight: bolder;
@@ -148,11 +215,11 @@ footer ul{
     font-size: 20px;
     line-height: 2em;
 
-}
+} */
 
 /* SECCION RESEÑAS */
 
-.resenas img{
+/* .resenas img{
 
     height: 400px;
     width: 400px;
@@ -176,7 +243,7 @@ footer ul{
 .resenas img{
 
     border-radius: 50%;
-}
+} */
 
 
 /* FIN INDEX */
@@ -193,7 +260,7 @@ footer ul{
     
 /*    MENU     */
 
-.menu{
+/* .menu{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -215,7 +282,7 @@ footer ul{
     justify-content: center;
     align-items: center;
     margin: 30px;
-}
+} */
 
 
 /* PAGINA RESERVAS */
@@ -227,7 +294,7 @@ footer ul{
     flex-flow: column nowrap;
 } */
 
-.form_reservas {
+/* .form_reservas {
     background-color: #7a787899;
     height: 50vh;
     width: 35%;
@@ -279,7 +346,7 @@ footer ul{
 .area_boton button{
     background-color: #1f1d1d;
     border: none;
-}
+} */
 
 /* .form_reservas div{
     display: flex;
@@ -292,7 +359,7 @@ footer ul{
 
 /*   EVENTOS   */
 
-.eventos{
+/* .eventos{
     
     display: flex;
     flex-flow: column nowrap;
@@ -341,11 +408,11 @@ footer ul{
     background-image: url(../assets/eventos2.jpg);
     background-size: cover;
 }
-
+ */
 
 /*  CONTACTO  */
 
-.contacto{
+/* .contacto{
     margin: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -421,4 +488,4 @@ footer ul{
 }
 .form_contacto__boton{
     grid-area: boton;
-}
+} */
