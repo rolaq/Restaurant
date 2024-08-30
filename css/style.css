@@ -17,9 +17,15 @@ body{
     font-weight: bolder;
     font-size: 30px;
     height: 60px;
+    width: 100%;
     padding-top:15px;
     background-color: #353332;
    
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
 /* HEADER */
 
@@ -56,6 +62,31 @@ li{
 
 /* FIN HEADER*/
 
+/* EVENTOS */
+
+.eventos img{
+
+    height: 450px;
+    width: 450px;
+    margin: 50px;
+}
+
+#eventos_fondo1{
+    background-image: url(../assets/eventos1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#eventos_fondo2{
+    background-image: url(../assets/eventos2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.eventos div{
+    margin: 80px;
+
+}
 /* INDEX MAIN*/
 
 
@@ -72,7 +103,10 @@ li{
     border-radius: 50%;
 }
 
-
+.eventos__carta{
+    background-color: #3a3737f5;
+    color: white;
+}
 
 .presentacion img{
 
@@ -104,6 +138,11 @@ li{
 
 /* PAGINA RESERVA Y CONTACTO*/
 
+
+.contacto{
+
+    margin: 100px;
+}
 .reserva form{
     height: 50vh;
     width: 400px;
