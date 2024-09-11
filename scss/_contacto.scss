@@ -1,0 +1,59 @@
+
+.contacto {
+
+    form{
+
+        input{
+            background-color: transparent;
+            border:none;
+            border-bottom: 1px solid black;
+            outline: none;
+        }
+    
+        textarea{
+            background-color: transparent;
+            border:none;
+            border-bottom: 1px solid black;
+            outline: none;
+        }
+    
+        input:focus, textarea:focus {
+            background-color: transparent; 
+            border-color: none; 
+            box-shadow: none; 
+            border-bottom: 1px solid rgb(214, 206, 206);
+        }
+    
+
+    }
+    div{
+        .contacto__mapa {
+            margin-bottom: 20px;
+    
+            iframe {
+                width: 100%; 
+                height: 400px;
+            }
+        }
+        
+    
+        .contacto__mapa_descripcion {
+            text-align: justify;
+            margin: 0;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .contacto{
+        margin:50px;
+    }
+}
+@media (min-width: 1000px){
+    .contacto{
+        margin:100px;
+    }
+}
+
+
+

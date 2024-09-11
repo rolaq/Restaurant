@@ -1,0 +1,27 @@
+
+
+.eventos{
+
+    div{
+        margin: 80px;
+    }
+
+    img{
+
+        height: 450px;
+        width: 450px;
+        margin: 50px;
+    }
+
+    #eventos_fondo1{
+        background-image: url(../assets/eventos1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #eventos_fondo2{
+        background-image: url(../assets/eventos2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

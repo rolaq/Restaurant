@@ -1,0 +1,36 @@
+
+
+
+.reserva {
+    h3 {
+        text-align: center;
+    }
+
+    form{
+        height: 50vh;
+        width: 400px;
+        background-color:#686565;
+        margin: auto;
+
+        input{
+            background-color: transparent;
+            border:none;
+            border-bottom: 1px solid black;
+            outline: none;
+        }
+
+        input:focus, .reserva textarea:focus {
+            background-color: transparent; 
+            border-color: none; 
+            box-shadow: none; 
+            border-bottom: 1px solid rgb(214, 206, 206);
+        }
+        
+    }
+}
+
+
+.form-control {
+    border-radius: 0;
+}
+
