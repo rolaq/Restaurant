@@ -1,16 +1,24 @@
 
+
 main{
     .presentacion{
-        img{
-    
-            height: 450px;
-            width: 450px;
-            margin: 50px;
+        div{
+            margin-top: 20px;
+            img{
+                max-width: 450px;
+                min-width: 100px;
+                max-height: 450px;
+                min-height: 100px;
+                
+            }
+            .presentacion_texto{
+                @extend .flex-dcc;
+                p{
+                    margin: auto;
+                }
+            }
         }
-
-        .presentacion__texto{
-            padding-top: 40px;
-        }
+        
     }
 
     .resenas{

@@ -2,3 +2,19 @@ $colorfondoprimario: #494645 ;
 $colorfondosecundario: #353332;
 $estiloletra: "Bosky";
 $estiloletrageneral: monospace;
+
+
+.flex-dcc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-menu{
+    flex: 0 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
