@@ -2,25 +2,30 @@
 header{
 
     color: white;
-    font-family: Bosky;
+    font-family: $estiloletra;
     text-decoration: none;
     width: 100%;
     height: 450px;
     background-image: url(../assets/fondos/restaurantIndex.jpg);
     background-attachment: fixed;
     background-position: bottom;
-    
-        
+
+    display: flex;
+    flex-flow: row nowrap;
+
+
+    div{
+        width: 100%;
         #titulo{
             font-weight: bolder;
             font-size: 40px;
         }
-
+    
         nav{
-
+    
             li{
                 list-style: none;
-
+    
                 a{
                     color: inherit;
                     text-decoration: none;
@@ -28,6 +33,11 @@ header{
                 }
             }  
         }     
+        
+    }    
+    
+        
+        
     
          
 }
@@ -51,12 +61,13 @@ body{
 
     .titulo_pagina{
         color: white;
+        font-family: $estiloletrageneral;
         text-align: center;
         font-weight: bolder;
         font-size: 30px;
         height: 60px;
         padding-top:15px;
-        background-color:#1f1d1df1;
+        background-color:$colorfondoprimario;
     }
 }
 
@@ -64,8 +75,8 @@ body{
 
 footer{
 
-    background-color: #1f1d1d;
-    color: black;
+    background-color:$colorfondosecundario;
+    color: rgb(219, 225, 240);
     width: 100%;
     div{
         padding: 0;
@@ -76,7 +87,8 @@ footer{
                 padding: 0;
         
                 a{
-                    text-decoration: none;
+                    color: #ffffff; 
+                    text-decoration: none; 
                 }
             }
         }
@@ -84,7 +96,7 @@ footer{
 }
 
 
-@media (min-width: 320px){
+@media (min-width: 0px){
     li,h3 {
         text-align: center;
     }

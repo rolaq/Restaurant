@@ -1,20 +1,24 @@
 
 
 main{
+    color:rgb(139, 142, 190);
     .presentacion{
-        div{
-            margin-top: 20px;
+        
+        .presentacion__div{
+            margin-top: 50px;
             img{
-                max-width: 450px;
-                min-width: 100px;
-                max-height: 450px;
-                min-height: 100px;
+                         
+                max-width: 300px;      
+                min-width: 100px; 
+                height: auto;
                 
             }
             .presentacion_texto{
                 @extend .flex-dcc;
                 p{
                     margin: auto;
+                    margin-bottom: 20px;
+                    text-align: center;
                 }
             }
         }
@@ -22,16 +26,24 @@ main{
     }
 
     .resenas{
+        margin-top: 10vh;
 
-        #titulo_resenas{
-            height: 200px;
+        #titulo_resenas{          
             width: 200px;
+            height: 200px;
+            height: auto;
             background-image: url(../assets/presentacion2.jpg);
             border-radius: 50%;
         }
+        
+        
 
         .resenas__div{
             img{
+                width: 100%;          
+                max-width: 400px;      
+                min-width: 200px;  
+                height: auto;   
                 border-radius: 50%;
             }
         }

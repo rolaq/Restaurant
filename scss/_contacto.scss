@@ -1,28 +1,34 @@
 
 .contacto {
 
-    form{
+    form{  
+        border: 2px solid #ffffff;
 
-        input{
+        h3{
+            color: white;
+            text-shadow: 0 0 10px #ffffff;
+        }
+        label{
+            color: white;
+            text-shadow: 0 0 10px #fff;
+        }
+
+        input, textarea{
+
             background-color: transparent;
             border:none;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid rgb(107, 102, 102);
             outline: none;
+
+            &:focus{
+                background-color: transparent; 
+                border-color: none; 
+                box-shadow: none; 
+                border-bottom: 1px solid rgb(214, 206, 206);
+            }
         }
     
-        textarea{
-            background-color: transparent;
-            border:none;
-            border-bottom: 1px solid black;
-            outline: none;
-        }
-    
-        input:focus, textarea:focus {
-            background-color: transparent; 
-            border-color: none; 
-            box-shadow: none; 
-            border-bottom: 1px solid rgb(214, 206, 206);
-        }
+        
     
 
     }
@@ -40,6 +46,8 @@
         .contacto__mapa_descripcion {
             text-align: justify;
             margin: 0;
+            margin-bottom:80px ;
+            color: #fff;
         }
     }
 }
