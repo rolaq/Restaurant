@@ -10,15 +10,15 @@
             height: 400px;  
             min-width: 150px;
             min-height: 150px;
-            background-color: #141a1b;
+            background-color: $colortagetamenu;
             color: #ffffff;
             border-radius: 10px;
             text-align: center;
             transition: transform 0.3s ease;
-            box-shadow: 0 4px 6px rgba(99, 37, 214, 0.5);
+            box-shadow: 0 4px 6px rgba(110, 87, 24, 0.5);
             &:hover {
                 transform: scale(1.05);
-                box-shadow: 0 6px 10px rgba(197, 189, 214, 0.8);
+                box-shadow: 0 6px 10px rgba(199, 158, 47, 0.5);
             }
             img{
                 width: 150px;

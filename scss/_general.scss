@@ -58,7 +58,7 @@ header{
 body{
     
     background-image: url(../assets/fondos/fondo.jpg);
-
+    color: $colorletra;
     .titulo_pagina{
         color: white;
         font-family: $estiloletrageneral;
@@ -76,7 +76,7 @@ body{
 footer{
 
     background-color:$colorfondosecundario;
-    color: rgb(219, 225, 240);
+    color: $colorletra;
     width: 100%;
     div{
         padding: 0;

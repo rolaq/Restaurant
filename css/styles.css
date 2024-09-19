@@ -57,6 +57,7 @@ header div nav li a {
 
 body {
   background-image: url(../assets/fondos/fondo.jpg);
+  color: white;
 }
 body .titulo_pagina {
   color: white;
@@ -66,12 +67,12 @@ body .titulo_pagina {
   font-size: 30px;
   height: 60px;
   padding-top: 15px;
-  background-color: #0d0c0f;
+  background-color: #A67B5B;
 }
 
 footer {
-  background-color: #070709;
-  color: rgb(219, 225, 240);
+  background-color: #4A2E14;
+  color: white;
   width: 100%;
 }
 footer div {
@@ -98,9 +99,6 @@ footer div div ul a {
   li, h3 {
     text-align: start;
   }
-}
-main {
-  color: rgb(139, 142, 190);
 }
 main .presentacion .presentacion__div {
   margin-top: 50px;
@@ -143,16 +141,16 @@ main .resenas .resenas__div img {
   height: 400px;
   min-width: 150px;
   min-height: 150px;
-  background-color: #141a1b;
+  background-color: #8C5C3C;
   color: #ffffff;
   border-radius: 10px;
   text-align: center;
   transition: transform 0.3s ease;
-  box-shadow: 0 4px 6px rgba(99, 37, 214, 0.5);
+  box-shadow: 0 4px 6px rgba(110, 87, 24, 0.5);
 }
 .menu .menu__div article:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 10px rgba(197, 189, 214, 0.8);
+  box-shadow: 0 6px 10px rgba(199, 158, 47, 0.5);
 }
 .menu .menu__div article img {
   width: 150px;
