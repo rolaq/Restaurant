@@ -25,7 +25,16 @@ header{
     
             li{
                 list-style: none;
-    
+                
+                transition: transform 0.3s ease;
+                
+
+                &:hover {
+                    transform: scale(1.25);
+            }
+
+
+
                 a{
                     color: inherit;
                     text-decoration: none;
@@ -68,18 +77,20 @@ body{
         height: 60px;
         padding-top:15px;
         background-color:$colorfondoprimario;
+        margin-bottom: 0;
     }
 }
 
 
 
 footer{
-
+    margin-top: 50px;
     background-color:$colorfondosecundario;
     color: $colorletra;
     width: 100%;
     div{
         padding: 0;
+        padding-top: 20px;
         div{
             padding: 0;
             ul{

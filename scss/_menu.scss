@@ -1,6 +1,7 @@
 
 .menu{
     .menu__div{
+        @extend .margen-secciones;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;

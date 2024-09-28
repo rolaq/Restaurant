@@ -3,11 +3,10 @@
 main{
     
     .presentacion{
-        
+        @extend .margen-secciones;
         .presentacion__div{
-            margin-top: 50px;
+            margin-bottom: 10vh;
             img{
-                         
                 max-width: 300px;      
                 min-width: 100px; 
                 height: auto;
@@ -27,7 +26,7 @@ main{
 
     .resenas{
         margin-top: 10vh;
-
+        margin-bottom: 10vh;
         #titulo_resenas{          
             width: 200px;
             height: 200px;

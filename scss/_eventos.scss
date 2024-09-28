@@ -1,5 +1,10 @@
 
 
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+  }
+
 .eventos{
 
     justify-content: center;
@@ -30,6 +35,13 @@
     
     #eventos_fondo2{
         background-image: url(../assets/fondos/navidad.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+    }
+
+    #eventos_fondo3{
+        background-image: url(../assets/eventos/valentine.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 80%;

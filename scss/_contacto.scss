@@ -1,9 +1,13 @@
 
 .contacto {
+  
+    margin:100px;
 
     form{  
         border: 2px solid #ffffff;
-
+        margin-right: 20px;
+        height: 100%;
+        
         h3{
             color: white;
             text-shadow: 0 0 10px #ffffff;
@@ -19,22 +23,29 @@
             border:none;
             border-bottom: 1px solid rgb(107, 102, 102);
             outline: none;
-
+            color: rgb(110, 86, 34);
             &:focus{
                 background-color: transparent; 
                 border-color: none; 
                 box-shadow: none; 
+                color: rgb(160, 128, 59);
                 border-bottom: 1px solid rgb(214, 206, 206);
             }
+            &::placeholder{
+                color: grey;
+            }
+            
         }
     
-        
+        button{
+            color: white;
+        }
     
 
     }
     div{
         .contacto__mapa {
-            margin-bottom: 20px;
+           
     
             iframe {
                 width: 100%; 
@@ -46,22 +57,30 @@
         .contacto__mapa_descripcion {
             text-align: justify;
             margin: 0;
-            margin-bottom:80px ;
+            
             color: #fff;
         }
     }
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
     .contacto{
-        margin:50px;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        form{
+            margin-right: 0px;
+        }
+    }
+    div{
+        .contacto__mapa {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
     }
 }
-@media (min-width: 1000px){
-    .contacto{
-        margin:100px;
-    }
-}
+
 
 
 
